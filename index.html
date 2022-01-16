@@ -67,23 +67,7 @@
           document.getElementById("liveagent_button_offline_5730p00000000VJ")
         );
       });
-    </script>
-
-    <!-- <script type="text/javascript">
-      if (!window._laq) {
-        window._laq = [];
-      }
-      window._laq.push(function () {
-        liveagent.showWhenOnline(
-          "5730p00000000VJ",
-          document.getElementById("liveagent_button_online_5730p00000000VJ")
-        );
-        liveagent.showWhenOffline(
-          "5730p00000000VJ",
-          document.getElementById("liveagent_button_offline_5730p00000000VJ")
-        );
-      });
-    </script> -->
+    </script>   
 
     <!-- END Button code -->
 
@@ -151,7 +135,10 @@
     <script type="text/javascript">
       var initESW = function (gslbBaseURL) {
         embedded_svc.settings.displayHelpButton = true; //または false
-        embedded_svc.settings.language = ""; //たとえば、「en」または「en-US」を入力します
+        embedded_svc.settings.language = "ja"; //たとえば、「en」または「en-US」を入力します
+
+		embedded_svc.settings.widgetWidth = 500;
+		embedded_svc.settings.widgetHeight = 500;
 
         //embedded_svc.settings.defaultMinimizedText = '...'; //(エキスパートとチャットにデフォルト設定)
         //embedded_svc.settings.disabledMinimizedText = '...'; //(エージェントがオフラインにデフォルト設定)
